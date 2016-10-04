@@ -1,4 +1,4 @@
-# Meteor-UI5-Mongo
+# Meteor-UI5-Accounts
 This is a Meteor package for using UI5 with the Meteor Accounts system.  
 
 It provides drop-in UI controls to manage logging in, sign out and other user accounts functions.
