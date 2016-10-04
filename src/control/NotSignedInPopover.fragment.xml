@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:u="sap.ui.unified">
+
+	<ResponsivePopover
+    title="Sign-in / join"
+		class="sapUiPopupWithPadding"
+    showCloseButton="true"
+		placement="Bottom" >
+    <content>
+      <Input id="inputEmail" placeholder="Email" type="Email"/>
+      <Input id="inputPassword" placeholder="Password" type="Password"/>
+			<Button text="Forgot password?" type="Transparent" press="handleForgotPassword" />
+      <MessageStrip id="accountsMessage" visible="false"/>
+    </content>
+		<beginButton>
+			<Button text="Create account" press="handleCreateAccount" />
+		</beginButton>
+		<endButton>
+			<Button text="Sign-in" type="Emphasized" press="handleSignin" />
+		</endButton>
+	</ResponsivePopover>
+</core:FragmentDefinition>

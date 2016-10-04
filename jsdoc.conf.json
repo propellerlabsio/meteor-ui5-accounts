@@ -1,0 +1,22 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc","closure"]
+  },
+  "source": {
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [],
+  "templates": {
+    "systemName"            : "Meteor-UI5 Package",
+    "copyright"             : "Copyright 2016 PropellerLabs.com",
+    "includeDate"           : true,
+    "theme"                 : "cerulean",
+    "linenums"              : true,
+    "collapseSymbols"       : false
+  },
+  "opts": {
+    "recurse": true                  // same as -r
+  }
+}
