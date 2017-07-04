@@ -41,11 +41,10 @@ To use your local version of the code in a meteor project:
 
 ## Roadmap
 
-### v0.0.1 - Current version
+### v0.0.2 - Current version
 
-### v0.0.2+
+### v0.0.3+
 
-1. Handle forgotten password / password reset requests.
 1. Add other UI controls beyond the ShellHeadUserItem for managing sign-in in apps that don't use a unified shell.
 1. Add ability to add custom items to accounts menu.
 1. Support Facebook, Github, Google oauth login
@@ -58,6 +57,7 @@ To use your local version of the code in a meteor project:
 | Version | Description |
 | ---- | ------- |
 | `0.0.1` | The initial version. |
+| `0.0.2` | Add password reset handling. |
 
 ## License
 This software is licensed under the Apache License, Version 2.0 - see LICENSE.txt

@@ -13,7 +13,7 @@
 
 Package.describe({
   name: 'propellerlabsio:meteor-ui5-accounts',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'UI5 with Meteor Accounts system',
   git: 'https://github.com/propellerlabsio/meteor-ui5-accounts',
   documentation: 'README.md'
